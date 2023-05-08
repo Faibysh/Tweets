@@ -2,7 +2,7 @@
   max-width: 380px;
   height: 670px;
   background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
-  margin: 170px auto 30px;
+  margin: 70px auto 30px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(173, 216, 230, 0.582);
 }
@@ -123,6 +123,11 @@
   box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
 
+.button:hover {
+  background-color: #5CD3A8;
+  color: #f9e7e7;
+}
+
 .buttonFollowing {
   display: flex;
   padding: 14px 56px;
@@ -140,6 +145,12 @@
   cursor: pointer;
   box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
+
+.buttonFollowing:hover {
+  background-color: #f9e7e7;
+  color: #373737;
+}
+
 
 .paragraph {
   padding: 10px;

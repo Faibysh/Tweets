@@ -1,3 +1,7 @@
+html {
+  background-color: #171717;
+}
+
 .more {
   display: flex;
   padding: 14px 56px;
@@ -14,4 +18,36 @@
   cursor: pointer;
   background-color: #e7f9e9;
   box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
+}
+
+.more:hover {
+  background-color: #5CD3A8;
+  color: #e7f9e9;
+  ;
+}
+
+
+.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 30px auto;
+  background-color: #e7f9e9;
+  border: 2px solid #373737;
+  border-radius: 10px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  color: #373737;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+
+
+.filter:hover {
+  background-color: #5CD3A8;
+  color: #e7f9e9;
+  ;
 }

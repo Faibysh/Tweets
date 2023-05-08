@@ -15,6 +15,7 @@ export default function Markup() {
     const followingString = localStorage.getItem("following");
     return followingString ? followingString.split(",") : [];
   });
+  const [filter, setFilter] = useState("show all");
 
   function handleFollowClick(id) {
     if (followings.includes(id)) {
@@ -24,6 +25,12 @@ export default function Markup() {
     } else {
       setFollowings((prevState) => [...prevState, id]);
     }
+  }
+  function handleLoadMore() {
+    setPage((prevState) => prevState + 1);
+  }
+  function handleFilterChange(event) {
+    setFilter(event.target.value);
   }
 
   useEffect(() => {
@@ -46,14 +53,31 @@ export default function Markup() {
     localStorage.setItem("following", followings);
   }, [followings]);
 
-  function handleLoadMore() {
-    setPage((prevState) => prevState + 1);
-  }
-
   return (
     <div>
+      <select
+        className={styles.filter}
+        value={filter}
+        onChange={handleFilterChange}
+      >
+        <option value="show all">Show All</option>
+        <option value="follow">Following</option>
+        <option value="following">Follow</option>
+      </select>
       <div className={styles.container}>
-        {paginate(page, PAGE_SIZE, users).map((user, index) => (
+        {paginate(
+          page,
+          PAGE_SIZE,
+          users.filter((user) => {
+            if (filter === "follow") {
+              return followings.includes(user.id);
+            } else if (filter === "following") {
+              return !followings.includes(user.id);
+            } else {
+              return true;
+            }
+          })
+        ).map((user, index) => (
           <Card
             key={index}
             following={followings.includes(user.id)}
