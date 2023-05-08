@@ -49,24 +49,26 @@ export default function Card({ following, userData, onToggleFollow }) {
             src="/src/images/rectangle.svg"
             alt="rectangle"
           />
-          <p className={styles.name}> @ {userData.user}</p>
-          <p className={styles.paragraph}> {userData.paragraph}</p>
-          <div className={styles.items}>
-            <ul className={styles.tweets}>
-              <li className={styles.number}>{userData.tweets}</li>
-              <h3 className={styles.text}>TWEETS</h3>
-            </ul>
-            <ul className={styles.followers}>
-              <li className={styles.number}>{followersCount}</li>
-              <h3 className={styles.text}>FOLLOWERS</h3>
-            </ul>
+          <div className={styles.bottom}>
+            <p className={styles.name}> @ {userData.user}</p>
+            <p className={styles.paragraph}> {userData.paragraph}</p>
+            <div className={styles.items}>
+              <ul className={styles.tweets}>
+                <li className={styles.number}>{userData.tweets}</li>
+                <h3 className={styles.text}>TWEETS</h3>
+              </ul>
+              <ul className={styles.followers}>
+                <li className={styles.number}>{followersCount}</li>
+                <h3 className={styles.text}>FOLLOWERS</h3>
+              </ul>
+            </div>
+            <button
+              className={following ? styles.buttonFollowing : styles.button}
+              onClick={handleFollowClick}
+            >
+              {following ? "Following" : "Follow"}
+            </button>
           </div>
-          <button
-            className={following ? styles.buttonFollowing : styles.button}
-            onClick={handleFollowClick}
-          >
-            {following ? "Following" : "Follow"}
-          </button>
         </>
       )}
     </div>
