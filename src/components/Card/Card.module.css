@@ -41,11 +41,13 @@
   border: 5px solid #fff;
   padding: 5px;
   background-color: #f4cece;
+  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
 
 .rectangle {
   position: absolute;
   margin: 190px -380px;
+
 }
 
 .name {
@@ -101,6 +103,7 @@
   color: #373737;
   cursor: pointer;
   background-color: #f9e7e7;
+  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
 
 .buttonFollowing {
@@ -118,6 +121,7 @@
   color: #373737;
   background-color: #5CD3A8;
   cursor: pointer;
+  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
 
 .paragraph {
@@ -128,4 +132,6 @@
   background-color: #f9e7e7;
   border-radius: 10px;
   font-family: 'Montserrat';
+  font-size: 17px;
+  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }

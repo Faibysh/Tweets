@@ -2,12 +2,15 @@ import { useState, useEffect, useRef } from "react";
 import styles from "./Markup.module.css";
 import axios from "axios";
 import Card from "../Card/Card";
+import { paginate } from "../../utils/paginate";
 
 const BASE_URL = "https://6455345df803f345763d4e4a.mockapi.io/users/";
+const PAGE_SIZE = 3;
 
 export default function Markup() {
   const firstRender = useRef(true);
   const [users, setUsers] = useState([]);
+  const [page, setPage] = useState(3);
   const [followings, setFollowings] = useState(() => {
     const followingString = localStorage.getItem("following");
     return followingString ? followingString.split(",") : [];
@@ -46,7 +49,7 @@ export default function Markup() {
   return (
     <div>
       <div className={styles.container}>
-        {users.slice(0, 3).map((user, index) => (
+        {paginate(page, PAGE_SIZE, users).map((user, index) => (
           <Card
             key={index}
             following={followings.includes(user.id)}
