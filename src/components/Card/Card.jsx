@@ -50,16 +50,16 @@ export default function Card({ following, userData, onToggleFollow }) {
             alt="rectangle"
           />
           <div className={styles.bottom}>
-            <p className={styles.name}> @ {userData.user}</p>
+            <p className={styles.name}> {userData.user}</p>
             <p className={styles.paragraph}> {userData.paragraph}</p>
             <div className={styles.items}>
               <ul className={styles.tweets}>
                 <li className={styles.number}>{userData.tweets}</li>
-                <h3 className={styles.text}>TWEETS</h3>
+                <h4 className={styles.text}>TWEETS</h4>
               </ul>
               <ul className={styles.followers}>
                 <li className={styles.number}>{followersCount}</li>
-                <h3 className={styles.text}>FOLLOWERS</h3>
+                <h4 className={styles.text}>FOLLOWERS</h4>
               </ul>
             </div>
             <button
