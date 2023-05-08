@@ -1,6 +1,6 @@
 .container {
   width: 380px;
-  height: 460px;
+  height: 560px;
   background-color: #471CA9;
   margin: 170px auto;
   border-radius: 20px;
@@ -11,6 +11,19 @@
 .logo {
   padding: 20px 0 0 20px;
 
+}
+
+.back {
+  padding: 4px 15px;
+  color: #471CA9;
+  border-radius: 15%;
+  border: none;
+  opacity: 35%;
+  margin-left: 190px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 17px;
+  cursor: pointer;
 }
 
 .decor {
@@ -29,12 +42,10 @@
   margin: 176px -380px;
 }
 
-.info-container {
-  display: flex;
+.name {
+  display: block;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
+  margin-top: 60px;
   color: #fff;
   font-family: 'Montserrat';
   font-style: normal;
@@ -44,7 +55,21 @@
   text-transform: uppercase;
 }
 
-.quantity {
+.items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.tweets {
   list-style-type: none;
   padding-right: 5px;
 
@@ -69,5 +94,22 @@
   line-height: 22px;
   text-transform: uppercase;
   color: #373737;
+  cursor: pointer;
+}
+
+.buttonFollowing {
+  display: flex;
+  padding: 14px 56px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 auto;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
+  background-color: #5CD3A8;
   cursor: pointer;
 }

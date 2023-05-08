@@ -1,0 +1,86 @@
+[
+ {
+  "user": "Peter Parker",
+  "tweets": 7183,
+  "avatar": "/src/images/avatar/spider.png",
+  "followers": 4362,
+  "id": "1"
+ },
+ {
+  "user": "Tony Stark",
+  "tweets": 830,
+  "avatar": "/src/images/avatar/iron.png",
+  "followers": 6782,
+  "id": "2"
+ },
+ {
+  "user": "Logan Wolverine",
+  "tweets": 796,
+  "avatar": "/src/images/avatar/wolverine.png",
+  "followers": 7980,
+  "id": "3"
+ },
+ {
+  "user": "Steve Rogers",
+  "tweets": 458,
+  "avatar": "/src/images/avatar/captain.png",
+  "followers": 338,
+  "id": "4"
+ },
+ {
+  "user": "Thor Odinson",
+  "tweets": 990,
+  "avatar": "/src/images/avatar/thor.png",
+  "followers": 4484,
+  "id": "5"
+ },
+ {
+  "user": "Bruce Banner",
+  "tweets": 694,
+  "avatar": "/src/images/avatar/hulk.png",
+  "followers": 643,
+  "id": "6"
+ },
+ {
+  "user": "Wade Wilson",
+  "tweets": 546,
+  "avatar": "/src/images/avatar/deadpool.png",
+  "followers": 9929,
+  "id": "7"
+ },
+ {
+  "user": "Eddie Brock",
+  "tweets": 771,
+  "avatar": "/src/images/avatar/venom.png",
+  "followers": 172,
+  "id": "8"
+ },
+ {
+  "user": "Stan Lee",
+  "tweets": 617,
+  "avatar": "/src/images/avatar/lee.png",
+  "followers": 330,
+  "id": "9"
+ },
+ {
+  "user": "Stephen Strange",
+  "tweets": 18,
+  "avatar": "/src/images/avatar/strange.png",
+  "followers": 418,
+  "id": "10"
+ },
+ {
+  "user": "T'Challa Udaku",
+  "tweets": 300,
+  "avatar": "/src/images/avatar/panter.png",
+  "followers": 1238,
+  "id": "11"
+ },
+ {
+  "user": "Groot Tree",
+  "tweets": 249,
+  "avatar": "/src/images/avatar/groot.png",
+  "followers": 263,
+  "id": "12"
+ }
+]
