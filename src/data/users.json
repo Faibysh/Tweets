@@ -4,83 +4,96 @@
   "tweets": 7183,
   "avatar": "/src/images/avatar/spider.png",
   "followers": 4362,
-  "id": "1"
+  "id": "1",
+  "paragraph": "With great power comes great responsibility #spidermanwisdom"
+  
  },
  {
   "user": "Tony Stark",
   "tweets": 830,
   "avatar": "/src/images/avatar/iron.png",
   "followers": 6782,
-  "id": "2"
+  "id": "2",
+  "paragraph": "Genius, billionaire, playboy, philanthropist... and occasional superhero."
  },
  {
   "user": "Logan Wolverine",
   "tweets": 796,
   "avatar": "/src/images/avatar/wolverine.png",
   "followers": 7980,
-  "id": "3"
+  "id": "3",
+  "paragraph": "Snikt! Time to unleash the claws and show these bad guys who's the best at what he does. "
  },
  {
   "user": "Steve Rogers",
   "tweets": 458,
   "avatar": "/src/images/avatar/captain.png",
   "followers": 338,
-  "id": "4"
+  "id": "4",
+  "paragraph": "I may be a man out of time, but my values and my shield are timeless."
  },
  {
   "user": "Thor Odinson",
   "tweets": 990,
   "avatar": "/src/images/avatar/thor.png",
   "followers": 4484,
-  "id": "5"
+  "id": "5",
+  "paragraph": "By Odin's beard! It's hammer time. Time to channel the power of the gods and protect the Nine Realms. #GodOfThunder"
  },
  {
   "user": "Bruce Banner",
   "tweets": 694,
   "avatar": "/src/images/avatar/hulk.png",
   "followers": 643,
-  "id": "6"
+  "id": "6",
+  "paragraph": "You won't like me when I'm angry. But sometimes you just have to smash through the obstacles in front of you."
  },
  {
   "user": "Wade Wilson",
   "tweets": 546,
   "avatar": "/src/images/avatar/deadpool.png",
   "followers": 9929,
-  "id": "7"
+  "id": "7",
+  "paragraph": "Time to make some chimichangas and break the fourth wall. It's gonna be a wild ride, but someone's gotta do it"
  },
  {
   "user": "Eddie Brock",
   "tweets": 771,
   "avatar": "/src/images/avatar/venom.png",
   "followers": 172,
-  "id": "8"
+  "id": "8",
+  "paragraph": "We are Venom! With our symbiotic powers, we'll take down anyone who dares to threaten our host."
  },
  {
   "user": "Stan Lee",
   "tweets": 617,
   "avatar": "/src/images/avatar/lee.png",
   "followers": 330,
-  "id": "9"
+  "id": "9",
+  "paragraph": "Remember, true believers, the power of comics and superheroes lies in their ability to inspire us to be heroes in our own lives"
  },
  {
   "user": "Stephen Strange",
   "tweets": 18,
   "avatar": "/src/images/avatar/strange.png",
   "followers": 418,
-  "id": "10"
+  "id": "10",
+  "paragraph": "By the Eye of Agamotto! It's time to tap into the mystical energies of the universe and protect reality from all threats"
  },
  {
   "user": "T'Challa Udaku",
   "tweets": 300,
   "avatar": "/src/images/avatar/panter.png",
   "followers": 1238,
-  "id": "11"
+  "id": "11",
+  "paragraph": "It's time to protect our people and our way of life, and show the world the strength and power of the Black Panther. #WakandaForever"
  },
  {
   "user": "Groot Tree",
   "tweets": 249,
   "avatar": "/src/images/avatar/groot.png",
   "followers": 263,
-  "id": "12"
+  "id": "12",
+  "paragraph": "I am Groot. I am Groot. I am Groot.#IAmGroot"
  }
 ]

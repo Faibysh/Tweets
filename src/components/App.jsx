@@ -4,6 +4,7 @@ export function App() {
   return (
     <div>
       <Markup />
+      {/* <Pagination /> */}
     </div>
   );
 }
