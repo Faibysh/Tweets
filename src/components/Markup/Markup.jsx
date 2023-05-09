@@ -55,21 +55,28 @@ export default function Markup() {
 
   return (
     <div>
-      <select
-        className={styles.filter}
-        value={filter}
-        onChange={handleFilterChange}
-      >
-        <option className={styles.option} value="show all">
-          Show All
-        </option>
-        <option className={styles.option} value="follow">
-          Following
-        </option>
-        <option className={styles.option} value="following">
-          Follow
-        </option>
-      </select>
+      <header className={styles.header}>
+        <button className={styles.back}>HOME</button>
+        <button className={styles.back}>TWEETS</button>
+        <button className={styles.back}>BACK</button>
+
+        <select
+          className={styles.filter}
+          value={filter}
+          onChange={handleFilterChange}
+        >
+          <option className={styles.option} value="show all">
+            Show All
+          </option>
+          <option className={styles.option} value="follow">
+            Following
+          </option>
+          <option className={styles.option} value="following">
+            Follow
+          </option>
+        </select>
+      </header>
+
       <div className={styles.container}>
         {paginate(
           page,

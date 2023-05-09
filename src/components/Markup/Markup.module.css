@@ -1,5 +1,27 @@
 html {
+  padding: 0;
+  margin: 0;
   background: linear-gradient(114.99deg, #171717 -0.99%, #a39292 54.28%, #2d2828 78.99%);
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background: linear-gradient(114.99deg, #e7f9e9 -0.99%, #676c67 54.28%, #98ce9e 78.99%);
+  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
+  z-index: 999;
+}
+
+
+
+.back:hover {
+  background: linear-gradient(114.99deg, #171717 -0.99%, #a39292 54.28%, #2d2828 78.99%);
+  color: #e7f9e9;
 }
 
 .more {
@@ -27,12 +49,13 @@ html {
 }
 
 
-.filter {
+.filter,
+.back {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  margin: 30px auto;
+  margin: 30px 50px;
   background: linear-gradient(114.99deg, #e7f9e9 -0.99%, #676c67 54.28%, #98ce9e 78.99%);
   border: 2px solid #373737;
   border-radius: 10px;
@@ -50,7 +73,11 @@ html {
 .filter:hover {
   background: linear-gradient(114.99deg, #8d9c8e -0.99%, #4a524a 54.28%, #344236 78.99%);
   color: #e7f9e9;
-  /* box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582); */
+}
+
+.back:hover {
+  background: linear-gradient(114.99deg, #8d9c8e -0.99%, #4a524a 54.28%, #344236 78.99%);
+  color: #e7f9e9;
 }
 
 .option {

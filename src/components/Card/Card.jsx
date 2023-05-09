@@ -29,7 +29,7 @@ export default function Card({ following, userData, onToggleFollow }) {
   }
 
   return (
-    <div className={styles.container}>
+    <div className={styles.card}>
       {userData && (
         <>
           <img
@@ -37,7 +37,6 @@ export default function Card({ following, userData, onToggleFollow }) {
             src="/src/images/vector.svg"
             alt="logo"
           />
-          <button className={styles.back}>Back</button>
           <img
             className={styles.decor}
             src="/src/images/decoration.png"

@@ -2,7 +2,7 @@ import Markup from "./Markup/Markup";
 
 export function App() {
   return (
-    <div>
+    <div className="section">
       <Markup />
     </div>
   );
