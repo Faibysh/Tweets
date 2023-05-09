@@ -5,10 +5,10 @@
   "homepage": "https://Faibysh.github.io/Tweets/",
   "type": "module",
   "scripts": {
-      "predeploy": "npm run build",
+    "predeploy": "npm run build",
+    "build": "vite build",
    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "dev": "vite",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
