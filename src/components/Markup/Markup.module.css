@@ -1,5 +1,5 @@
 html {
-  background-color: #171717;
+  background: linear-gradient(114.99deg, #171717 -0.99%, #a39292 54.28%, #2d2828 78.99%);
 }
 
 .more {
@@ -16,12 +16,12 @@ html {
   text-transform: uppercase;
   color: #373737;
   cursor: pointer;
-  background-color: #e7f9e9;
+  background: linear-gradient(114.99deg, #e7f9e9 -0.99%, #676c67 54.28%, #98ce9e 78.99%);
   box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
 
 .more:hover {
-  background-color: #5CD3A8;
+  background: linear-gradient(114.99deg, #8d9c8e -0.99%, #4a524a 54.28%, #344236 78.99%);
   color: #e7f9e9;
   ;
 }
@@ -33,7 +33,7 @@ html {
   align-items: center;
   padding: 10px;
   margin: 30px auto;
-  background-color: #e7f9e9;
+  background: linear-gradient(114.99deg, #e7f9e9 -0.99%, #676c67 54.28%, #98ce9e 78.99%);
   border: 2px solid #373737;
   border-radius: 10px;
   font-family: 'Montserrat';
@@ -47,7 +47,11 @@ html {
 
 
 .filter:hover {
-  background-color: #5CD3A8;
+  background: linear-gradient(114.99deg, #8d9c8e -0.99%, #4a524a 54.28%, #344236 78.99%);
   color: #e7f9e9;
   ;
+}
+
+.option {
+  background-color: #8d9c8e;
 }

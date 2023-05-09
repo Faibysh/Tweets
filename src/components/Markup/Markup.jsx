@@ -60,9 +60,15 @@ export default function Markup() {
         value={filter}
         onChange={handleFilterChange}
       >
-        <option value="show all">Show All</option>
-        <option value="follow">Following</option>
-        <option value="following">Follow</option>
+        <option className={styles.option} value="show all">
+          Show All
+        </option>
+        <option className={styles.option} value="follow">
+          Following
+        </option>
+        <option className={styles.option} value="following">
+          Follow
+        </option>
       </select>
       <div className={styles.container}>
         {paginate(
