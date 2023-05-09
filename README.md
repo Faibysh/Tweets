@@ -30,6 +30,8 @@ Wait for your Pull Request to be reviewed and merged.
 ## Technologies
 
 The application is built using the following technologies:
+
+```
 HTML
 CSS modules
 JavaScript
@@ -38,6 +40,7 @@ React Hooks
 React Router
 Axios
 BackEnd - mockApi
+```
 
 ## Author
 
