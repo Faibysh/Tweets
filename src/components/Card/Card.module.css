@@ -129,6 +129,7 @@
 }
 
 .buttonFollowing {
+  content: "FOLLOWING";
   display: flex;
   padding: 14px 56px;
   border-radius: 10px;
@@ -151,6 +152,13 @@
   color: #373737;
 }
 
+.buttonFollowing::before {
+  content: "FOLLOWING";
+}
+
+.buttonFollowing:hover::before {
+  content: "UNFOLLOW";
+}
 
 .paragraph {
   padding: 10px;

@@ -66,7 +66,7 @@ export default function Card({ following, userData, onToggleFollow }) {
               className={following ? styles.buttonFollowing : styles.button}
               onClick={handleFollowClick}
             >
-              {following ? "Following" : "Follow"}
+              {following ? "" : "Follow"}
             </button>
           </div>
         </>
