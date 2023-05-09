@@ -32,16 +32,20 @@ export default function Card({ following, userData, onToggleFollow }) {
     <div className={styles.card}>
       {userData && (
         <>
-          <img className={styles.logo} src="dist/vector.svg" alt="logo" />
+          <img
+            className={styles.logo}
+            src="dist/assets/vector.svg"
+            alt="logo"
+          />
           <img
             className={styles.decor}
-            src="dist/decoration.png"
+            src="dist/assets/decoration.png"
             alt="decoration"
           />
           <img className={styles.avatar} src={userData.avatar} alt="avatar" />
           <img
             className={styles.rectangle}
-            src="dist/rectangle.svg"
+            src="dist/assets/rectangle.svg"
             alt="rectangle"
           />
           <div className={styles.bottom}>
