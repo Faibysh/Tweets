@@ -161,6 +161,7 @@
 }
 
 .paragraph {
+  /* text-transform: uppercase; */
   padding: 10px;
   max-width: 200px;
   margin: 0 auto;
