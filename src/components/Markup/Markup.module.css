@@ -42,6 +42,7 @@ html {
   color: #373737;
   cursor: pointer;
   text-transform: uppercase;
+  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
 }
 
 
@@ -49,7 +50,7 @@ html {
 .filter:hover {
   background: linear-gradient(114.99deg, #8d9c8e -0.99%, #4a524a 54.28%, #344236 78.99%);
   color: #e7f9e9;
-  ;
+  /* box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582); */
 }
 
 .option {

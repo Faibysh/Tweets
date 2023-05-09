@@ -2,7 +2,7 @@
   "name": "tweets",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://faibysh.github.io/Tweets/",
+  "homepage": "https://Faibysh.github.io/Tweets/",
   "type": "module",
   "scripts": {
     "dev": "vite",
