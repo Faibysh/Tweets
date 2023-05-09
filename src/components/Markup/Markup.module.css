@@ -56,7 +56,7 @@ html {
   align-items: center;
   padding: 10px;
   margin: 30px 50px;
-  background: linear-gradient(114.99deg, #e7f9e9 -0.99%, #676c67 54.28%, #98ce9e 78.99%);
+  background-color: transparent;
   border: 2px solid #373737;
   border-radius: 10px;
   font-family: 'Montserrat';
@@ -65,7 +65,7 @@ html {
   color: #373737;
   cursor: pointer;
   text-transform: uppercase;
-  box-shadow: 3px 3px 3px rgba(173, 216, 230, 0.582);
+  box-shadow: 2px 2px 2px rgba(173, 216, 230, 0.582);
 }
 
 
