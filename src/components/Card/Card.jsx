@@ -34,18 +34,18 @@ export default function Card({ following, userData, onToggleFollow }) {
         <>
           <img
             className={styles.logo}
-            src="dist/assets/vector.svg"
+            src="./dist/assets/vector.svg"
             alt="logo"
           />
           <img
             className={styles.decor}
-            src="dist/assets/decoration.png"
+            src="./dist/assets/decoration.png"
             alt="decoration"
           />
           <img className={styles.avatar} src={userData.avatar} alt="avatar" />
           <img
             className={styles.rectangle}
-            src="dist/assets/rectangle.svg"
+            src="./dist/assets/rectangle.svg"
             alt="rectangle"
           />
           <div className={styles.bottom}>
